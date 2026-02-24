@@ -1,0 +1,19 @@
+name: nerf_gauss
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.8.0=cuda128_mkl_py310_hc92d6f1_302
+  - torchvision=0.24.0=cuda129_py310_h7646b12_2
+  - colour
+  - imageio
+  - imageio-ffmpeg
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pillow
+  - tqdm
+  - ipywidgets
